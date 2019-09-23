@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block title %} - {{page_title}}{% endblock %}
+    {% block head %}
+      {{ super() }}
+    {% endblock %}
+{% block page %}{{title}}{% endblock %}
+    {% block heading %}
+      {{ super() }}
+    {% endblock %}
+{% block content %}
+
+{{ g.pagination.info }}
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Tissue Records</h2>
+            </div>
+            <div class="panel-body" style='height: auto;'>
+                
+                <div class="table-responsive">
+                <table class='table table-striped table-bordered table-hover table-condensed'>
+                    <thead>
+                        <tr>
+                            <th class="text-center">ID</th>
+                            <th class="text-center">PROTEIN NAME</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for key in g.filters %}
+                            {% set mpm={'query': key} %}
+                                <tr style='cursor: pointer'>
+                                    <td>{{loop.index}}</td>
+                                    <td> <a href="{{ url_for('browse', **mpm) }}"> {{key}}</td>
+
+                            </tr>
+
+                        {%endfor%}     
+                    </tbody>
+                </table>
+                </div>
+               {{ g.pagination.links }}
+            </div>
+        </div>
+{% endblock %}  
+

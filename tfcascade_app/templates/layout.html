@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% block head %}
+      <title>TFCascade - {% block title %}{% endblock %}</title>
+    {% endblock %}
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+
+    <link href="http://bootstrapdocs.com/v3.3.0/docs/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link type='text/css' href="{{ url_for('static', filename='css/style_1.css') }}" rel='stylesheet' media='screen' />
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">		
+			
+    <!-- JS files are loaded at the bottom of the page -->
+    <script type='text/javascript' src='{{ url_for('static', filename='js/myapps.js')}}'></script>
+
+    <script src="{{ url_for('static', filename='js/jquery-1.10.2.min.js')}}"></script>
+    
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='DataTables-1.10.4/media/css/jquery.dataTables.css')}}">
+      
+   
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='DataTables-1.10.4/media/js/jquery.dataTables.js')}}"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	
+	<!-- Calendar -->
+	<script type='text/javascript' src="{{ url_for('static', filename='fullcalendar-1.5.4/jquery/jquery-ui-1.8.23.custom.min.js')}}"></script>
+	<script type='text/javascript' src="{{ url_for('static', filename='fullcalendar-1.5.4/fullcalendar/fullcalendar.min.js')}}"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script src="{{ url_for('static', filename='js/cytoscape.min.js')}}"></script>
+
+<style>
+      body {
+        padding-top: 70px;
+        padding-bottom: 30px;
+      }
+      .panel{
+            min-width: 300px;
+      }
+      .org_form{
+            min-width: 250px;
+      }
+      #footer {
+            text-align: center;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 70px;
+          padding-bottom: 30px;
+        }
+        #footer {
+            text-align: left;
+        }
+      }
+.search_button {
+    width: 100% !important;
+    /*-webkit-transition: width 0.4s ease-in-out !important;*/
+    /*transition: width 0.4s ease-in-out !important;*/
+}
+
+/* When the input field gets focus, change its width to 100% */
+/*.search_button:focus {*/
+/*    width: 100% !important;*/
+/*}*/
+
+@media (max-width: 767px) {
+    .search_button {
+        width: 100% !important;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" style='background-color: #0c5460;'>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand logo" href='{{ url_for('app_index') }}' style="background-color: #FFF; margin: 5px;">
+						<img src= "/static/images/tfcascade logocrop.png", width="130px", height="35px">
+					</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li style='color: #ffeb3b; font-size: 18px;'><a href="{{url_for('app_index')}}"><i class="fa fa-home "></i> Home</a></li>
+                <li style='color: #ffeb3b; font-size: 18px;'><a href="{{url_for('chain')}}"><i class="fa fa-project-diagram"></i> Cascades</a></li>
+                <li style='color: #ffeb3b; font-size: 18px;'><a href="{{url_for('genes')}}"><i class="	fa fa-list"></i> Gene List</a></li>
+                <li style='color: #ffeb3b; font-size: 18px;'><a href="{{url_for('knowledge')}}"><i class="	fab fa-hubspot"></i> Tissues </a></li>
+                <li style='color: #ffeb3b; font-size: 18px;'><a href=""><i class="fa fa-users"></i> About Us</a></li>
+                <li style='color: #ffeb3b; font-size: 18px;'><a href=""><i class="fa fa-question-circle "></i> Help/FAQs</a></li>
+                <li class="search">
+                    <form action="{{ url_for('search') }}" class="form-inline" method="post" name="search_form" id="search_form">
+                            <div class="input-group margin-bottom-sm" style="float: right; margin: 8px;">
+                        <!--<div class="form-group">-->
+                                <input class="form-control search_button" type="text" placeholder="Search" name="search_key" required="required" aria-required="true">
+                                <!--<span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>-->
+                                <span onclick="document.getElementById('search_form').submit();" class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+                        <!--</div>-->
+                            </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+            {% block content %}{% endblock %}
+        </div>
+      </div>
+    </div>
+    <div id='footer' style="z-index: 9;background-color: #0c5460;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-left">
+                
+                        <div class="col-xs-7 col-sm-9 col-md-9 col-lg-4">
+                            <a href="" target="_blank" class="agmresponsive">
+                                <!--<img src="{{ url_for('static', filename='images/KL_logo.jpg')}}" class="agm-logo">-->
+                            </a>
+                            <a href="" target="_blank" class="agmresponsive agmmobile">
+                                <!--<img src="{{ url_for('static', filename='images/tbc_logo.png')}}" class="agm-logo">-->
+                            </a>
+                        </div>
+                    </div>
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-right footer-font">
+												<b>Last Updated: </b> 25<sup>th</sup> July 2019 |
+												<b>Contact:</b> skhadar@gmail.com | oommenkm@gmail.com
+												<b>Team: </b>Pratyush Tandale,Sahil Joshi, William John
+										</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

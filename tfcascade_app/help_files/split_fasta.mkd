@@ -1,0 +1,42 @@
+#Split Fasta Tool
+####A tool for identifying the source organisms of the homologues sequences in different categories by length
+
+
+###Inputs:
+ 1. Fasta file* ([Sample](/send_file_sample/ORGANNOTFASTA "Sample Fasta File"))
+ 
+ 
+ 2. Blast results in any of the following formats*
+ 
+    * text ([Sample](/send_file_sample/ORGANNOTBLTXT "Sample BLAST Result (txt)"))
+    * xml ([Sample](/send_file_sample/ORGANNOTBLXML "Sample BLAST Result (xml)"))
+    * csv ([Sample](/send_file_sample/ORGANNOTBLCSV "Sample BLAST Result (csv)"))
+    * tab ([Sample](/send_file_sample/ORGANNOTBLTAB "Sample BLAST Result (tab)"))
+   
+###Parameters:
+1. Blast File Type*
+
+2. Bin Size*
+
+3. Number of organism to count*
+
+    ** Contextual Parameters **
+
+    1. Number of the column with Sequence ID (starts at 1)*
+    
+    2. Number of the column with Organism Info (starts at 1)* 
+
+###Output:
+
+* ** Displayed **
+
+    1. List of organisms and number of hits in different length bins
+
+    2. Chart
+
+
+* ** Downloadable **
+    1. List of organisms and number of hits in different length bins
+
+    2. Chart
+        

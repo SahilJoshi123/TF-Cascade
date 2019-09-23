@@ -1,0 +1,1516 @@
+{
+    "TBX21": [
+        "RUNX3",
+        "ZEB2"
+    ],
+    "TFAP2C": [
+        "PITX2",
+        "ESR1"
+    ],
+    "XBP1": [
+        "SP7"
+    ],
+    "SALL4": [
+        "NANOG",
+        "POU5F1",
+        "MYC"
+    ],
+    "DLX5": [
+        "RUNX2",
+        "SP7"
+    ],
+    "HOXA5": [
+        "TP53",
+        "SOX2"
+    ],
+    "FOXN1": [
+        "PAX1"
+    ],
+    "NFKB1": [
+        "TP53",
+        "SP1",
+        "NFKB2",
+        "JUN"
+    ],
+    "SPI1": [
+        "EBF1",
+        "KLF4",
+        "GATA1",
+        "GATA3"
+    ],
+    "GLI1": [
+        "FOXA2"
+    ],
+    "NANOG": [
+        "SALL1",
+        "POU5F1",
+        "STAT3",
+        "ZIC3",
+        "SOX2",
+        "DNMT1",
+        "FOXD3",
+        "SNAI2",
+        "ZFP57"
+    ],
+    "NR3C1": [
+        "GTF2B",
+        "FOXO1",
+        "GTF3A",
+        "RELA",
+        "FOXO3"
+    ],
+    "DLX2": [
+        "DLX5",
+        "SNAI1",
+        "POU4F2"
+    ],
+    "MSX2": [
+        "ATOH1",
+        "FOXE3",
+        "SP7"
+    ],
+    "EGR1": [
+        "SNAI1",
+        "CEBPA"
+    ],
+    "NFYB": [
+        "DDIT3"
+    ],
+    "DLX4": [
+        "MYC"
+    ],
+    "TBX4": [
+        "SHOX2"
+    ],
+    "MYOG": [
+        "MEF2A"
+    ],
+    "AHR": [
+        "IRF1",
+        "BACH2",
+        "BATF",
+        "ATF4",
+        "NR5A2",
+        "FOXP3",
+        "SNAI2"
+    ],
+    "HOXA7": [
+        "SNAI1"
+    ],
+    "TWIST1": [
+        "POU5F1",
+        "FOXM1",
+        "TET1",
+        "AR",
+        "TBX20"
+    ],
+    "NEUROG3": [
+        "NEUROD1",
+        "FEV",
+        "INSM1",
+        "PAX4",
+        "FOXM1",
+        "NKX2-2"
+    ],
+    "EGR2": [
+        "CEBPB"
+    ],
+    "HOXC6": [
+        "ETV4"
+    ],
+    "SNAI1": [
+        "NANOG",
+        "TP63",
+        "ZEB1",
+        "AR"
+    ],
+    "SOX4": [
+        "ZNF281"
+    ],
+    "SOX9": [
+        "NEUROG3",
+        "NFIA",
+        "RUNX2",
+        "AR",
+        "NKX3-2",
+        "SP7"
+    ],
+    "FOSB": [
+        "MYC"
+    ],
+    "SIX1": [
+        "MYOG",
+        "MYOD1",
+        "SALL1",
+        "GATA2",
+        "MYC"
+    ],
+    "KLF2": [
+        "TBX21",
+        "SOX9",
+        "TBX5",
+        "GATA4",
+        "IRF4"
+    ],
+    "MYOD1": [
+        "MYOG",
+        "SIX1",
+        "BARX2",
+        "PPARG",
+        "SOX6"
+    ],
+    "FOXA1": [
+        "TET1",
+        "NKX3-1"
+    ],
+    "SALL1": [
+        "NANOG"
+    ],
+    "JUND": [
+        "JUN",
+        "MYC"
+    ],
+    "RARA": [
+        "NR3C1",
+        "GTF2B",
+        "GTF3A"
+    ],
+    "DZIP1": [
+        "GLI3",
+        "GLI2"
+    ],
+    "HNF1A": [
+        "FOXA3",
+        "PPARD",
+        "HNF4G",
+        "NR1H4",
+        "MYC"
+    ],
+    "TBX3": [
+        "ZSCAN4"
+    ],
+    "BACH2": [
+        "BCL6"
+    ],
+    "POU5F1": [
+        "SALL4",
+        "NANOG",
+        "SNAI1",
+        "SALL1",
+        "STAT3",
+        "GATA6",
+        "MYCN",
+        "ZIC3",
+        "SOX2",
+        "DNMT1",
+        "ZEB1",
+        "FOXD3",
+        "TET2",
+        "MYC"
+    ],
+    "SIX3": [
+        "TP53",
+        "PAX6"
+    ],
+    "ZNF24": [
+        "MYRF",
+        "NKX6-2"
+    ],
+    "RORA": [
+        "NR1D1",
+        "NPAS2",
+        "SREBF1",
+        "ARNTL"
+    ],
+    "YY1": [
+        "HOXB7",
+        "MSX2",
+        "TP53"
+    ],
+    "TCF3": [
+        "RAG1",
+        "RORC",
+        "MYB",
+        "PAX5"
+    ],
+    "PAX8": [
+        "FOXM1",
+        "FOXE1"
+    ],
+    "TFCP2L1": [
+        "NANOG"
+    ],
+    "EPAS1": [
+        "NANOG",
+        "SOX9",
+        "SOX2"
+    ],
+    "ATF2": [
+        "JUN"
+    ],
+    "STAT3": [
+        "SALL4",
+        "NANOG",
+        "TWIST1",
+        "SNAI1",
+        "SOX4",
+        "MYOD1",
+        "RORA",
+        "TP53",
+        "MYCN",
+        "BATF",
+        "JUNB",
+        "CEBPB",
+        "FOS",
+        "SOX2",
+        "RORC",
+        "MAF",
+        "IKZF1",
+        "ESR2",
+        "IKZF3",
+        "NKX2-1",
+        "DNMT1",
+        "STAT1",
+        "ZEB1",
+        "HLX",
+        "POU2F1",
+        "PRDM1",
+        "KLF5",
+        "FOXO1",
+        "IRF4",
+        "NFATC2",
+        "SOX6",
+        "BCL6",
+        "FOXO3",
+        "CEBPD",
+        "HIF1A",
+        "MYC"
+    ],
+    "MECOM": [
+        "PBX1"
+    ],
+    "FOSL2": [
+        "FOSL1"
+    ],
+    "TP63": [
+        "IRF6"
+    ],
+    "LYL1": [
+        "NKX3-1"
+    ],
+    "KLF1": [
+        "BCL11A"
+    ],
+    "LEF1": [
+        "PITX2",
+        "AR",
+        "SNAI2",
+        "MYC"
+    ],
+    "PITX1": [
+        "TBX4"
+    ],
+    "SRF": [
+        "FOS"
+    ],
+    "CREM": [
+        "KCNIP3"
+    ],
+    "ASCL1": [
+        "PHOX2A",
+        "INSM1",
+        "RBPJ",
+        "HES5"
+    ],
+    "ZFHX3": [
+        "PITX2",
+        "NKX2-5"
+    ],
+    "IRF8": [
+        "SNAI1",
+        "EBF1",
+        "IKZF1",
+        "GATA2",
+        "BCL6"
+    ],
+    "GATA6": [
+        "NKX2-1"
+    ],
+    "TP53": [
+        "NANOG",
+        "KLF2",
+        "FOXF1",
+        "ARID3A",
+        "NEUROD1",
+        "HIC1",
+        "E2F7",
+        "ZBTB49",
+        "ZNF385A",
+        "STAT5A",
+        "FOXM1",
+        "PLAGL1",
+        "PRDM1",
+        "SPDEF",
+        "IRF9",
+        "BCL6",
+        "HMGA1",
+        "ESR1",
+        "HMGA2",
+        "TWIST2"
+    ],
+    "ZNF750": [
+        "KLF4"
+    ],
+    "MEF2D": [
+        "MYOG",
+        "JUN",
+        "PAX3",
+        "ESRRA",
+        "NR4A1"
+    ],
+    "SETDB1": [
+        "STAT3"
+    ],
+    "OSR1": [
+        "TP53"
+    ],
+    "MEIS1": [
+        "SOX3"
+    ],
+    "MYRF": [
+        "CDC5L"
+    ],
+    "MYCN": [
+        "TFAP4",
+        "MYBL2",
+        "ASCL1",
+        "TP53",
+        "INSM1",
+        "MLXIP",
+        "MXI1",
+        "LIN28B"
+    ],
+    "TCF7L1": [
+        "KLF4",
+        "MYC"
+    ],
+    "FEZF2": [
+        "NEUROG1"
+    ],
+    "HOXA10": [
+        "EGR1"
+    ],
+    "JAZF1": [
+        "SNAI2"
+    ],
+    "KLF10": [
+        "RUNX2",
+        "FOXP3"
+    ],
+    "ZIC3": [
+        "NANOG"
+    ],
+    "PPARG": [
+        "TP53",
+        "FOS",
+        "KLF4",
+        "PDX1",
+        "NFE2L2",
+        "CEBPA"
+    ],
+    "HOXB13": [
+        "E2F1",
+        "SNAI2"
+    ],
+    "AIRE": [
+        "FOS"
+    ],
+    "STAT5B": [
+        "IRF8",
+        "FOS",
+        "EBF1",
+        "PAX5",
+        "FOXP3"
+    ],
+    "TAL1": [
+        "MYB",
+        "NKX3-1"
+    ],
+    "REL": [
+        "FOXP3",
+        "IRF4",
+        "NFATC2"
+    ],
+    "NEUROD1": [
+        "INSM1",
+        "NKX2-2",
+        "TBR1"
+    ],
+    "MITF": [
+        "FOXD3",
+        "PAX6"
+    ],
+    "NKX6-1": [
+        "NEUROG3"
+    ],
+    "NFIL3": [
+        "EOMES"
+    ],
+    "ZHX1": [
+        "EGR1"
+    ],
+    "FOXN4": [
+        "ASCL1",
+        "NR4A2"
+    ],
+    "STAT6": [
+        "PPARG",
+        "SPDEF",
+        "GATA3",
+        "IRF4",
+        "EOMES"
+    ],
+    "RUNX1": [
+        "SPI1",
+        "MYB",
+        "FOXP3",
+        "NFE2",
+        "NR4A3"
+    ],
+    "NFATC3": [
+        "MYC"
+    ],
+    "ATOH1": [
+        "POU4F3",
+        "HES6",
+        "ARID2"
+    ],
+    "GBX2": [
+        "KLF4"
+    ],
+    "ONECUT1": [
+        "NEUROG3",
+        "PDX1",
+        "ONECUT3",
+        "FOXA2",
+        "HNF1B"
+    ],
+    "JUNB": [
+        "JUN",
+        "RUNX2"
+    ],
+    "ZNF467": [
+        "PPARG"
+    ],
+    "IRX1": [
+        "HOXB4"
+    ],
+    "CEBPB": [
+        "PPARG",
+        "FOS",
+        "EBF1",
+        "KLF5",
+        "CEBPA"
+    ],
+    "FOS": [
+        "SNAI1",
+        "FOSL2",
+        "PPARG",
+        "FOSL1",
+        "PRDM1",
+        "NFATC1"
+    ],
+    "ETV5": [
+        "MAF"
+    ],
+    "CENPS": [
+        "CENPA",
+        "AHCTF1",
+        "CENPT"
+    ],
+    "CLOCK": [
+        "DBP",
+        "BHLHE41",
+        "NR1D1",
+        "BHLHE40",
+        "RORA",
+        "KLF15",
+        "PPARA"
+    ],
+    "ELF4": [
+        "KLF4"
+    ],
+    "PROP1": [
+        "POU1F1"
+    ],
+    "INSM1": [
+        "NKX6-1",
+        "NKX6-2"
+    ],
+    "HNF4A": [
+        "HNF1A"
+    ],
+    "HIC1": [
+        "TP53"
+    ],
+    "ZBTB33": [
+        "TP53"
+    ],
+    "STAT2": [
+        "EGR1",
+        "IRF1",
+        "IRF8",
+        "IRF5",
+        "IRF6",
+        "IRF4",
+        "IRF2",
+        "IRF9",
+        "IRF7",
+        "IRF3"
+    ],
+    "NEUROG2": [
+        "SOX21"
+    ],
+    "GSX2": [
+        "SP8"
+    ],
+    "MLXIPL": [
+        "BHLHE40",
+        "KLF10"
+    ],
+    "ETV4": [
+        "ZHX1"
+    ],
+    "SOX11": [
+        "MYCN",
+        "ATF3"
+    ],
+    "EBF1": [
+        "PPARG",
+        "POU2AF1",
+        "CEBPA",
+        "ZNF423"
+    ],
+    "SOX2": [
+        "NANOG",
+        "TWIST1",
+        "SALL1",
+        "STAT3",
+        "ZIC3",
+        "DNMT1",
+        "FOXD3",
+        "LIN28A",
+        "HES5"
+    ],
+    "FOXJ1": [
+        "RFX3"
+    ],
+    "PGR": [
+        "MSX2"
+    ],
+    "NR2F1": [
+        "EGR1",
+        "MYC"
+    ],
+    "FOXC2": [
+        "MYOD1"
+    ],
+    "MAF": [
+        "PRDM1",
+        "MAFB"
+    ],
+    "NKX2-5": [
+        "MEF2C"
+    ],
+    "MAFA": [
+        "PDX1"
+    ],
+    "CREB3L2": [
+        "ATF5"
+    ],
+    "POU3F2": [
+        "MITF"
+    ],
+    "SP1": [
+        "EGR1",
+        "ZBTB7A",
+        "DNMT1",
+        "AR",
+        "FOXO3",
+        "MYC"
+    ],
+    "OLIG2": [
+        "NKX2-2",
+        "SOX10"
+    ],
+    "WT1": [
+        "CXXC5",
+        "TCF21",
+        "MYC"
+    ],
+    "IRX3": [
+        "HOXB4"
+    ],
+    "IKZF1": [
+        "GFI1"
+    ],
+    "TBX1": [
+        "GLI1",
+        "SNAI1",
+        "FOXQ1"
+    ],
+    "ASCL2": [
+        "GCM1"
+    ],
+    "ALX4": [
+        "SNAI2"
+    ],
+    "SMAD3": [
+        "MYF5",
+        "MYOG",
+        "SNAI1",
+        "MYOD1",
+        "JUNB",
+        "ATF4",
+        "SMAD4",
+        "FOXP3",
+        "SKIL"
+    ],
+    "FOXL2": [
+        "ESR2"
+    ],
+    "TTF1": [
+        "TBP"
+    ],
+    "GATA4": [
+        "GATA6",
+        "MEF2C"
+    ],
+    "NR1I2": [
+        "TP53"
+    ],
+    "ATF4": [
+        "ATF3",
+        "ATF6",
+        "SP7",
+        "DDIT3",
+        "CREB3L1"
+    ],
+    "CENPA": [
+        "CENPS",
+        "AHCTF1",
+        "CENPT"
+    ],
+    "ZBTB16": [
+        "GATA4",
+        "RUNX2"
+    ],
+    "NPAS2": [
+        "DBP",
+        "BHLHE41",
+        "NR1D1",
+        "BHLHE40",
+        "RORA",
+        "KLF15",
+        "PPARA"
+    ],
+    "BCL11A": [
+        "NR2F1"
+    ],
+    "MYB": [
+        "PAX7",
+        "SNAI2"
+    ],
+    "LMX1A": [
+        "MSX1"
+    ],
+    "MEF2C": [
+        "NR3C1",
+        "ASCL1",
+        "JUN",
+        "GTF3A",
+        "ESRRA",
+        "GLI2"
+    ],
+    "STAT5A": [
+        "IRF8",
+        "FOS",
+        "EBF1",
+        "PAX5",
+        "FOXP3",
+        "DPF3"
+    ],
+    "SMAD4": [
+        "NANOG",
+        "CTCF",
+        "ATF2",
+        "MYCN",
+        "JUNB",
+        "PPARD",
+        "NKX2-5",
+        "GATA4",
+        "TBX18",
+        "SKIL",
+        "SP7",
+        "MYC"
+    ],
+    "THYN1": [
+        "PAX5"
+    ],
+    "SOX18": [
+        "PROX1"
+    ],
+    "CREB3": [
+        "JUN"
+    ],
+    "FOXM1": [
+        "MYBL2",
+        "SOX9",
+        "POU5F1",
+        "STAT3",
+        "SOX2",
+        "NR4A2",
+        "SNAI2"
+    ],
+    "HOXA1": [
+        "RARA",
+        "NCOA3",
+        "RARG",
+        "RXRA"
+    ],
+    "HOXA9": [
+        "MYB"
+    ],
+    "OTX2": [
+        "HMGA2"
+    ],
+    "ESR2": [
+        "EGR1",
+        "FOS"
+    ],
+    "ATF3": [
+        "STAT3",
+        "TP53",
+        "CREB1"
+    ],
+    "NR4A2": [
+        "FOXP3"
+    ],
+    "IKZF3": [
+        "IRF4"
+    ],
+    "RBPJ": [
+        "HES1",
+        "ASCL1",
+        "HEY1",
+        "HEY2",
+        "HEYL",
+        "HES5",
+        "PBX1",
+        "HES7",
+        "MYC"
+    ],
+    "E2F1": [
+        "TP53",
+        "PPARG",
+        "FOXO1",
+        "MYC"
+    ],
+    "GATA2": [
+        "SPI1",
+        "AR"
+    ],
+    "NFYA": [
+        "DDIT3"
+    ],
+    "MEF2A": [
+        "MYOG",
+        "JUN",
+        "ESRRA"
+    ],
+    "NKX2-1": [
+        "HEY1"
+    ],
+    "GABPA": [
+        "MTERF1"
+    ],
+    "SREBF1": [
+        "AR"
+    ],
+    "BCL11B": [
+        "FOS"
+    ],
+    "PAX5": [
+        "BACH2",
+        "EBF1"
+    ],
+    "TCF20": [
+        "AR"
+    ],
+    "DNMT1": [
+        "TP53",
+        "FOXP3"
+    ],
+    "TEAD4": [
+        "CDX2"
+    ],
+    "GATAD2A": [
+        "TBP"
+    ],
+    "STAT1": [
+        "TBX21",
+        "HES1",
+        "IRF1",
+        "SP110",
+        "IRF8",
+        "MAF",
+        "HEY1",
+        "PRDM1"
+    ],
+    "SREBF2": [
+        "PPARG"
+    ],
+    "ZEB1": [
+        "IRF1",
+        "SIX2",
+        "AR",
+        "ETS1"
+    ],
+    "HOXB1": [
+        "SNAI2"
+    ],
+    "PAX9": [
+        "MSX1"
+    ],
+    "AHCTF1": [
+        "CENPS",
+        "CENPA",
+        "CENPT"
+    ],
+    "ESRRG": [
+        "NR0B1"
+    ],
+    "NR5A2": [
+        "NANOG",
+        "POU5F1"
+    ],
+    "LHX9": [
+        "NR5A1"
+    ],
+    "ATF6": [
+        "XBP1",
+        "DDIT3"
+    ],
+    "USF1": [
+        "TP53"
+    ],
+    "NKX6-2": [
+        "NEUROG3"
+    ],
+    "GATAD2B": [
+        "TBP"
+    ],
+    "PRDM1": [
+        "XBP1",
+        "MSX1"
+    ],
+    "TCF7L2": [
+        "NR2F2",
+        "MYC"
+    ],
+    "TBX18": [
+        "SNAI2"
+    ],
+    "NFKB2": [
+        "AR",
+        "NKX3-1"
+    ],
+    "TLX1": [
+        "SIX2"
+    ],
+    "PAX2": [
+        "WT1",
+        "AR"
+    ],
+    "SOX3": [
+        "NEUROG3",
+        "SNAI1"
+    ],
+    "FOXD3": [
+        "MYF5",
+        "POU5F1",
+        "PAX3",
+        "SOX10"
+    ],
+    "JUN": [
+        "NANOG",
+        "FOS",
+        "FOXK1",
+        "FOXK2",
+        "SREBF1",
+        "DNMT1",
+        "STAT1",
+        "KLF5",
+        "SNAI2",
+        "MYC"
+    ],
+    "RUNX2": [
+        "TCF7",
+        "SNAI2",
+        "SP7"
+    ],
+    "NCOA3": [
+        "NR3C1",
+        "FOXM1",
+        "GTF2B",
+        "GTF3A",
+        "NR2F2",
+        "CEBPA",
+        "MYC"
+    ],
+    "KLF17": [
+        "TP53",
+        "SMAD3"
+    ],
+    "ZNF503": [
+        "HOXC6",
+        "LHX3"
+    ],
+    "YBX1": [
+        "TWIST1"
+    ],
+    "MAFB": [
+        "PROX1"
+    ],
+    "NR5A1": [
+        "NR0B1"
+    ],
+    "TET1": [
+        "NANOG",
+        "EGR1"
+    ],
+    "SPDEF": [
+        "AR"
+    ],
+    "LIN28A": [
+        "NANOG",
+        "POU5F1"
+    ],
+    "KLF4": [
+        "NANOG",
+        "TWIST1",
+        "TP53",
+        "ONECUT1",
+        "CEBPB",
+        "IRF4",
+        "PAX6"
+    ],
+    "AR": [
+        "NANOG",
+        "TWIST1",
+        "FOXA1",
+        "TFEB",
+        "ZEB1",
+        "NKX3-1",
+        "ZEB2",
+        "MYC"
+    ],
+    "TFDP1": [
+        "PITX1",
+        "E2F1"
+    ],
+    "PAX7": [
+        "MYF5"
+    ],
+    "SPEN": [
+        "HEY1"
+    ],
+    "FOXP3": [
+        "IRF8",
+        "GATA3",
+        "MYC"
+    ],
+    "ZIC2": [
+        "TGIF1"
+    ],
+    "GATA1": [
+        "ZBTB7A",
+        "TAL2",
+        "FOXO3",
+        "IRF3"
+    ],
+    "NKX2-2": [
+        "FOXA2"
+    ],
+    "HIF3A": [
+        "EPAS1"
+    ],
+    "KLF5": [
+        "NANOG",
+        "SOX4",
+        "PPARG",
+        "SOX2",
+        "RUNX2",
+        "PPARA",
+        "MYC"
+    ],
+    "HES5": [
+        "GATA3"
+    ],
+    "NR0B1": [
+        "POU5F1"
+    ],
+    "GATA3": [
+        "MAF",
+        "MYB",
+        "FOXP3",
+        "NKX3-1",
+        "ESR1",
+        "ZBTB7B"
+    ],
+    "FOXO1": [
+        "KLF2",
+        "RAG1",
+        "IKZF1",
+        "FOXP3",
+        "IRF4",
+        "NR2F2",
+        "CREB1",
+        "EOMES",
+        "NFATC1",
+        "SP7"
+    ],
+    "SPZ1": [
+        "TWIST1"
+    ],
+    "NKX3-1": [
+        "TWIST1",
+        "SIX6",
+        "FOXO1"
+    ],
+    "FOXC1": [
+        "MSX2",
+        "SNAI1"
+    ],
+    "IRF4": [
+        "KLF2",
+        "IKZF1",
+        "PRDM1",
+        "KLF4",
+        "BCL6"
+    ],
+    "CDX2": [
+        "HNF4A",
+        "KLF4"
+    ],
+    "PDX1": [
+        "NKX6-1"
+    ],
+    "GLIS3": [
+        "NEUROG3"
+    ],
+    "RFX3": [
+        "FOXJ1"
+    ],
+    "DMRT1": [
+        "ZBTB16",
+        "SOHLH1"
+    ],
+    "NKX3-2": [
+        "SOX9"
+    ],
+    "MSX1": [
+        "PAX3",
+        "SP7"
+    ],
+    "PAX3": [
+        "MYF5",
+        "MYOD1",
+        "MITF",
+        "FOXD3",
+        "FOXO3"
+    ],
+    "STAT4": [
+        "TBX21",
+        "ETV5",
+        "BCL6"
+    ],
+    "ASH1L": [
+        "FOXP3",
+        "MYC"
+    ],
+    "ETS1": [
+        "IKZF1",
+        "ZEB1"
+    ],
+    "NME2": [
+        "POU5F1",
+        "FOS",
+        "MYC"
+    ],
+    "TFAP2B": [
+        "ETS1"
+    ],
+    "NR2F2": [
+        "EGR1",
+        "SNAI1",
+        "HNF1A",
+        "TBX5"
+    ],
+    "DMTF1": [
+        "TP53"
+    ],
+    "CXXC4": [
+        "TET2"
+    ],
+    "TBX6": [
+        "HES7"
+    ],
+    "GLI3": [
+        "GLI1"
+    ],
+    "NFATC2": [
+        "EGR3",
+        "SOX2",
+        "NFATC1",
+        "MYC"
+    ],
+    "SNAI2": [
+        "STAT1",
+        "RUNX2"
+    ],
+    "IRF9": [
+        "EGR1",
+        "IRF1",
+        "IRF8",
+        "IRF5",
+        "IRF6",
+        "IRF4",
+        "IRF2",
+        "IRF7",
+        "IRF3"
+    ],
+    "SOX10": [
+        "MITF",
+        "FOXD3"
+    ],
+    "NFE2L2": [
+        "ATF3"
+    ],
+    "IRF7": [
+        "IRF1",
+        "ALX1"
+    ],
+    "RUNX3": [
+        "EGR1",
+        "ARID5B",
+        "FOXP3",
+        "EOMES"
+    ],
+    "RELA": [
+        "RELB",
+        "IRF1",
+        "REL",
+        "FOS",
+        "JUN",
+        "AR",
+        "MYC",
+        "TWIST2"
+    ],
+    "BCL6": [
+        "TP53",
+        "MLXIPL",
+        "STAT1"
+    ],
+    "ARNTL": [
+        "DBP",
+        "BHLHE41",
+        "NR1D1",
+        "BHLHE40",
+        "RORA",
+        "KLF15",
+        "PPARA",
+        "NFATC1"
+    ],
+    "ETV2": [
+        "SOX9"
+    ],
+    "ESRRA": [
+        "PPARA"
+    ],
+    "NCOA1": [
+        "NR3C1",
+        "GRHL1",
+        "NPAS2",
+        "GTF2B",
+        "GTF3A",
+        "PPARA",
+        "CEBPA",
+        "NR1H3",
+        "MYC"
+    ],
+    "PPARA": [
+        "GRHL1",
+        "NPAS2",
+        "NR1H3",
+        "MYC"
+    ],
+    "FOXO3": [
+        "TP53",
+        "FOXM1",
+        "ESR2",
+        "MEF2A",
+        "RUNX2",
+        "FOXO4",
+        "AR",
+        "FOXP3",
+        "FOXO1",
+        "MYC"
+    ],
+    "CEBPD": [
+        "PPARG",
+        "EBF1",
+        "KLF5"
+    ],
+    "CREB1": [
+        "EGR1",
+        "SOX9",
+        "MITF",
+        "FOS",
+        "REST",
+        "NR4A2",
+        "SOX3",
+        "AR",
+        "FOXO1",
+        "SKIL"
+    ],
+    "EOMES": [
+        "MESP1"
+    ],
+    "TCF12": [
+        "MYB"
+    ],
+    "NFATC1": [
+        "MYOD1",
+        "MEF2D",
+        "NFATC3",
+        "SP3",
+        "SP1",
+        "MEF2C",
+        "MEF2A",
+        "NR4A1"
+    ],
+    "YY2": [
+        "TP53"
+    ],
+    "DLX3": [
+        "AHR"
+    ],
+    "GLI2": [
+        "GLI1",
+        "NANOG",
+        "ASCL1",
+        "MEF2C"
+    ],
+    "BORCS8-MEF2B": [
+        "BCL6"
+    ],
+    "NFYC": [
+        "DDIT3"
+    ],
+    "NFIC": [
+        "KLF4"
+    ],
+    "SATB1": [
+        "HES6",
+        "GATA3",
+        "MYC"
+    ],
+    "HMGA1": [
+        "STAT3"
+    ],
+    "NCOA2": [
+        "NR3C1",
+        "GRHL1",
+        "NPAS2",
+        "GTF2B",
+        "GTF3A",
+        "PPARA",
+        "CEBPA"
+    ],
+    "FOXA2": [
+        "HES6",
+        "SOX14",
+        "PDX1"
+    ],
+    "SATB2": [
+        "NANOG",
+        "RUNX2",
+        "SP7"
+    ],
+    "MEF2B": [
+        "BCL6"
+    ],
+    "PAX6": [
+        "NEUROG2",
+        "PDX1",
+        "EOMES",
+        "ETV1"
+    ],
+    "SOHLH1": [
+        "LHX8"
+    ],
+    "ETV1": [
+        "SNAI1"
+    ],
+    "ESR1": [
+        "NR3C1",
+        "CXXC5",
+        "PGR",
+        "MYB",
+        "FOXM1",
+        "GTF3A",
+        "MYC"
+    ],
+    "PBX1": [
+        "NANOG"
+    ],
+    "SP8": [
+        "PAX6"
+    ],
+    "MBD3": [
+        "TBP"
+    ],
+    "MYSM1": [
+        "EBF1",
+        "PAX5"
+    ],
+    "SMYD3": [
+        "FOXP3"
+    ],
+    "ONECUT2": [
+        "MITF"
+    ],
+    "RXRA": [
+        "NR3C1",
+        "GRHL1",
+        "NPAS2",
+        "GTF2B",
+        "GTF3A",
+        "PPARA",
+        "CEBPA",
+        "NR1H3",
+        "MYC"
+    ],
+    "KLF6": [
+        "PPARG"
+    ],
+    "ESRRB": [
+        "POU5F1",
+        "GATA6",
+        "CDX2"
+    ],
+    "SMAD1": [
+        "CTCF",
+        "ATF2",
+        "NKX2-5",
+        "GATA4"
+    ],
+    "CEBPA": [
+        "PPARG",
+        "KLF5"
+    ],
+    "EBF2": [
+        "PRDM16"
+    ],
+    "EHF": [
+        "NKX3-1"
+    ],
+    "KMT2A": [
+        "SPI1"
+    ],
+    "HMGA2": [
+        "TWIST1",
+        "SOX2",
+        "PLAG1",
+        "LIN28B",
+        "TET1",
+        "SNAI2"
+    ],
+    "HIF1A": [
+        "SOX9",
+        "RORA",
+        "ETS1",
+        "PPARA",
+        "FOXO3"
+    ],
+    "SMAD5": [
+        "CTCF",
+        "ATF2",
+        "NKX2-5",
+        "GATA4",
+        "RUNX2",
+        "SP7"
+    ],
+    "MIXL1": [
+        "REL"
+    ],
+    "SP7": [
+        "SATB2",
+        "VDR"
+    ],
+    "NR1H4": [
+        "FOXM1",
+        "SREBF2"
+    ],
+    "RFX7": [
+        "RFX4"
+    ],
+    "ZEB2": [
+        "FOXE3",
+        "HEY2"
+    ],
+    "ZNF423": [
+        "PPARG"
+    ],
+    "CENPT": [
+        "CENPS",
+        "CENPA",
+        "AHCTF1"
+    ],
+    "DUX4": [
+        "ZSCAN4"
+    ],
+    "IRF3": [
+        "PLSCR1"
+    ],
+    "NR1H3": [
+        "SREBF1"
+    ],
+    "MYC": [
+        "TFAP4",
+        "SNAI1",
+        "CTCF",
+        "TP53",
+        "PRDM16",
+        "TCF7L1",
+        "ZNF281",
+        "LIN28B",
+        "E2F1",
+        "LIN28A",
+        "AR",
+        "PAX3",
+        "NFE2L2"
+    ],
+    "HNF1B": [
+        "ONECUT1",
+        "HNF4A",
+        "PTF1A"
+    ],
+    "NR4A3": [
+        "FOXP3"
+    ],
+    "PCGF2": [
+        "HOXA7"
+    ]
+}

@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block title %} - {{page_title}}{% endblock %}
+    {% block head %}
+      {{ super() }}
+    {% endblock %}
+{% block page %}{{title}}{% endblock %}
+    {% block heading %}
+      {{ super() }}
+    {% endblock %}
+{% block content %}
+{% from 'macros.html' import render_pagination %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2>Tissue Records</h2>
+            </div>
+            <div class="panel-body" style='height: auto;'>
+                
+                <div class="table-responsive">
+                <table class='table table-striped table-bordered table-hover table-condensed'>
+                    <thead>
+                        <tr>
+                            <th class="text-center">ID</th>
+                            <th class="text-center">TISSUE NAME</th>
+                            <th class="text-center">CASCADE FREQUENCY</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for key,value in g.cascadeind.items() %}
+
+                            {% set mpm={'query': key} %}
+                            {% if g.query.lower() in key.lower() %}
+                                <tr style='cursor: pointer'>
+                                    <td>{{loop.index}}</td>
+                                    <td>{{key}}</td>
+                                    <td> <a href="{{ url_for('tissue', **mpm) }}"> {{value|length}}</td>
+                            {% endif %}
+                                    
+                            </tr>
+
+                        {%endfor%}     
+                    </tbody>
+                </table>
+                </div>
+               
+            </div>
+        </div>
+{% endblock %}  
+

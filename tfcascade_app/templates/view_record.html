@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block title %} - {{page_title}}{% endblock %}
+    {% block head %}
+      {{ super() }}
+    {% endblock %}
+{% block page %}{{title}}{% endblock %}
+    {% block heading %}
+      {{ super() }}
+    {% endblock %}
+{% block content %}
+{% from 'macros.html' import render_pagination %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2> </h2>
+            </div>
+            {%set cur_mpm=g.mpm %}
+            <div class="panel-body" style='height: auto;'>
+                <div class="table-responsive">
+                <table class='table table-hover' id='user_table'>
+                        <tr>
+                            <!--<th>bacterial classification</th>-->
+                            <!--<th>location of sampling</th>-->
+                            <!--<th>sequencing method</th>-->
+                            <!--<th>depth</th>-->
+                            <!--<th>aligner</th>-->
+                            <!--<th>tools</th>-->
+                            <!--<th>phenomic details</th>-->
+                            <!--<th>antibiotic</th>-->
+                            <!--<th>diet</th>-->
+                            <!--<th>metadata</th>-->
+                            <!--<th>sequencing platform</th>-->
+                        </tr>
+                    </thead>
+                    <tbody>
+                                <tr>
+                                    <th>id</th><td>{{cur_mpm.mpm_id}}</td>
+                                </tr>
+                                <tr>
+                                    <th>disease phenotype</th><td>{{cur_mpm.mpm_disease_phenotype}}</td>
+                                </tr>
+                                <tr>
+                                    <th>model organism</th><td>{{cur_mpm.mpm_model_organism}}</td>
+                                </tr>
+                                <tr>
+                                    <th>taxa</th><td>{{cur_mpm.mpm_taxa}}</td>
+                                </tr>
+                                <tr>
+                                    <th>species</th><td>{{cur_mpm.mpm_species}}</td>
+                                </tr>
+                                <tr>
+                                    <th>abundance</th><td>{{cur_mpm.mpm_abundance}}</td>
+                                </tr>
+                                <tr>
+                                    <th>pmid</th><td>{{cur_mpm.mpm_pmid}}</td>
+                                </tr>
+                                <tr>
+                                    <th>sequence data</th><td>{{cur_mpm.mpm_sequence_data}}</td>
+                                </tr>
+                                <tr>
+                                    <th>gram stain</th><td>{{cur_mpm.mpm_gram_stain}}</td>
+                                </tr>
+                                    <!--<td>{{cur_mpm.mpm_bacterial_classification}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_location_of_sampling}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_sequencing_method}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_depth}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_aligner}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_tools}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_phenomic_details}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_antibiotic}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_diet}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_metadata}}</td>-->
+                                    <!--<td>{{cur_mpm.mpm_sequencing_platform}}</td>-->
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+{% endblock %}
