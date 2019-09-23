@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Marker Labels</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHOfSWStEXXxGlP8g-sdaEJLdCSydnDPo"></script>
+    <script>
+      // In the following example, markers appear when the user clicks on the map.
+      // Each marker is labeled with a single alphabetical character.
+      //var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      var labelIndex = 0;
+
+      function initialize() {
+        var bangalore = { lat: 12.97, lng: 76.20, name:'Place 8', icon:'/demographics_demo/static/images/l2.png', patients:110 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: {lat: 14.97, lng: 76.20}
+        });
+
+        // This event listener calls addMarker() when the map is clicked.
+        //google.maps.event.addListener(map, 'click', function(event) {
+        //  addMarker(event.latLng, map);
+        //});
+
+        // Add a marker at the center of the map.
+        addMarker(bangalore, map);
+        var c2 = [{ lat: 11.971, lng: 76.593, name:'place - 11111',
+                    icon:{
+                            path: google.maps.SymbolPath.CIRCLE,
+                            scale: 5,
+                            strokeColor:'#9900ff',
+                            strokeOpacity: 1.0,
+                            strokeWeight: 2                            
+                          },
+                    patients:100 },
+                    { lat: 12.973, lng: 74.997, name:'place - 2', icon:'/demographics_demo/static/images/s1.png', patients:20 },
+                    { lat: 12.976, lng: 77.590, name:'place - 3', icon:'/demographics_demo/static/images/s4.png', patients:25 },
+                    { lat: 16.978, lng: 76.578, name:'place - 4', icon:'/demographics_demo/static/images/l3.png', patients:120 },
+                    { lat: 13.979, lng: 76.579, name:'place - 5', icon:'/demographics_demo/static/images/s5.png', patients:30 },
+                    { lat: 14.975, lng: 76.575, name:'place - 6', icon:'/demographics_demo/static/images/l5.png', patients:105 },
+                    { lat: 14.974, lng: 75.574, name:'place - 7', icon:'/demographics_demo/static/images/s4.png', patients:10 },
+                    { lat: 13.974, lng: 74.574, name:'place - 9', icon:'/demographics_demo/static/images/s4.png', patients:10 }
+                 ];
+        
+        for (i = 0; i < c2.length; i++) {
+          addMarker(c2[i], map);
+        }
+      }
+      
+      var infowindow = new google.maps.InfoWindow({
+          content: "<div>kkkkkkk</div>"
+        });
+      
+      // Adds a marker to the map.
+      function addMarker(location, map) {
+        // Add the marker at the clicked location, and add the next-available label
+        // from the array of alphabetical characters.
+        var marker = new google.maps.Marker({
+          position: location,
+          label: location['name'],
+          icon: location['icon'],
+          patients: location['patients'],
+          map: map
+        });
+        marker.addListener('click', function() {
+          infowindow.setContent('<div><table><tr><td><img src='
+                                +marker.icon+' /></td><td><strong>Name:' +
+                                marker.label + '<br>Patients:'+
+                                marker.patients
+                                +'</strong></td></tr></table>' + '</div>');
+          infowindow.open(map, marker);
+        });
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>

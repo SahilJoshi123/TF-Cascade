@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHOfSWStEXXxGlP8g-sdaEJLdCSydnDPo"></script>
+        <script>
+            
+              geoResults = google.maps.new Geocoder().geocode('608242');
+          
+              // Get the latitude and longitude
+              lat = geoResults.results[0].geometry.location.lat;
+              lng = geoResults.results[0].geometry.location.lng;
+              alert(lat + "--" + lng);
+        </script>
+    </body>
+</html>
