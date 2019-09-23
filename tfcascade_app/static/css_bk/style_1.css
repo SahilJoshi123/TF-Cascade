@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: #F1EFEA;
+    /*background-image: url("/Ote/images/ocimum_tenuiflorum2.jpg");*/
+}
+#outermost_div{
+    width: 100%;
+    background-color: #F1EFEA;
+    margin: 0px 0px 10px 0px;
+    
+    /*opacity:0.6;*/
+    /*filter:alpha(opacity=60); /* For IE8 and earlier */*/
+}
+#header{
+    /*box-shadow: 2px 3px 5px 2px #888;*/
+    font-family:  sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F1EFEA;
+    border-bottom: #EBDFC1 solid 8px;
+    width: 100%;
+    position:fixed;
+        top:0px;
+        left:0px;
+        z-index:1000;
+    background-color: #990000;
+    padding: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    letter-spacing: 1px;
+}
+#sub_header{
+    font-size: 15px;
+    color: #F3CFCF;
+    margin: -14px 0px 0px 2px;
+    letter-spacing: 0px;
+}
+.btn-meroon{
+    background-color: #990000;
+    color: #fff;
+}
+.main_table{
+    width: 100%;
+}
+#index_description_div{
+    /*width: 95%;*/
+    min-width: 400px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    /*box-shadow: 2px 3px 5px 2px #888;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    margin: auto;
+    background-color: #EBDFC1;
+    padding: 10px;
+}
+#index_current_stat_div{
+    width: 300px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top: 10px;
+    background-color: #E4E0BA;
+    background-color: #EBDFC1;
+    padding: 10px 10px;
+    float: left;
+    height: 220px;
+    overflow: auto;
+}
+#index_current_stat_div_title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+#index_current_stat_div hr{
+    margin: 0px 0px 5px 0px;
+    background-color: #926F14;
+    border-color: #926F14;
+}
+.index_main_img{
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+    border: #666 solid 1px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    /*box-shadow: 2px 3px 5px 2px #888;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+.index_writeup{
+    text-align: justify;
+    font-family:  sans-serif;
+    font-size: 15.5px;
+    font-weight: normal;
+    margin: 8px 10px 8px 10px;
+}
+.index_bottom_tab{
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.index_bottom_tab td{
+    vertical-align: top;
+}
+
+#index_tabs_div{
+    /*width: 100%;*/
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    /*border: #666 solid 1px;*/
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    padding: 20px;
+    background-color: #DCD5D5;
+}
+
+.tab-pane{
+    border: 1px solid #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#index_column_div{
+    background-color: #E6E5E1;
+    width: 100%;
+    /*height: 150px;*/
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    padding-top: 10px;
+}
+
+.index_col_header{
+    font-family:  sans-serif;
+    font-size: 15.5px;
+    font-weight: bold;
+    margin: 0px 10px 10px 10px;
+    /*width: 50%;*/
+    border-bottom: dashed 1px #777;
+}
+.column_data_tab{
+    margin: 10px;
+}
+
+#menu{
+    font-size: 13px;
+    background-color: #F1EFEA;
+    color: #990000;
+    /*height: 30px;*/
+    padding: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    width: 80px;
+    text-align: center;
+    margin: 8px 8px 0px 8px;
+}
+#menu:hover{
+    background-color: #fff;
+    color: #990000;
+    cursor: pointer;
+}
+#section_title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 5px;
+}
+#tab_title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+#footer{
+    background-color: #990000;
+    padding: 8px;
+    margin: 10px 0px 2px 0px;
+    width: 100%;
+    color: #fff;
+}
+.ncbs-logo {
+    width: 100px;
+    height: 50px;
+    margin: 0px 0px 0px 15px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    /* box-shadow: 2px 3px 5px 2px #888; */
+    -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.25);
+}
+.logo {
+    max-width:200px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 15px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    /* box-shadow: 2px 3px 5px 2px #888; */
+    -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.25);
+}
+
+#browse_ctl{
+    float: right;
+    margin: 0px 35px 15px 20px;
+    width: 98%;
+}
+
+#outermost_div pre{
+    color: #333;
+    font-size: 16px;
+}
+
+#main_content_div{
+    width: 90%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.sf_fold_class{
+    margin: -10px auto;
+    
+}
+.sf_fold_class td{
+    padding: 10px;
+}
+.jsmol_iframe{
+   height: 300px;
+   background-color: inherit;
+   border: 0px;
+}
+#conserved_ali{
+    width: 720px;
+    overflow: auto;
+}
+.conserved_res{
+    background-color: #EDDD04;
+}
+.rna_binding_res{
+    color: #dd0000;
+    font-weight: bold
+}
+#video_div{
+  -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    width: 970px;
+    height: 500px;
+    background-color: #000;
+    padding: 5px;
+    margin: 0px auto 10px auto;
+}
