@@ -22,7 +22,7 @@ markdown-newtab==0.2.0
 MarkupSafe==1.0
 matplotlib==2.1.0
 MySQL-python==1.2.5
-numpy==1.13.3
+numpy==1.22.0
 ordereddict==1.1
 pandas==0.20.3
 Pillow==5.0.0
